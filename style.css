@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #eceadc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 16px;
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 40px;
+    border-radius: 24px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 24px;
+    color: #1e2b3c;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.valor-contador {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #7c7650;
+    margin-bottom: 32px;
+    line-height: 1.2;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 40px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    min-width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    filter: brightness(1);
+}
+
+.btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 12px currentColor; /* Sombra del color del botón */
+    filter: brightness(1.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.decrementar {
+    background-color: #dc2626;
+}
+
+.resetear {
+    background-color: #6b7280;
+}
+
+.incrementar {
+    background-color: #16a34a; 
+}
+
+
+@media (max-width: 400px) {
+    .contenedor {
+    padding: 30px 16px;
+}
+    .valor-contador {
+    font-size: 5rem;
+}
+    .btn {
+    padding: 10px 18px;
+    min-width: 100px;
+}
+}
