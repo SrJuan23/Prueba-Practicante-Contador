@@ -25,10 +25,15 @@ Aplicación web interactiva de contador desarrollada con **HTML5**, **CSS3** y *
 - **JavaScript (ES6)** – Manipulación del DOM, eventos `click` con `addEventListener` y funciones flecha.
 
 ## 📁 Estructura del proyecto
+
 prueba-practicante-contador/
+
 ├── index.html # Documento HTML principal
+
 ├── style.css # Estilos y efectos visuales
+
 ├── script.js # Lógica del contador
+
 └── README.md # Documentación del proyecto
 
 ## 🚀 Cómo ejecutar el proyecto
